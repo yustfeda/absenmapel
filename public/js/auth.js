@@ -14,7 +14,7 @@ document.getElementById('loginForm').addEventListener('submit', (e) => {
         })
         .catch((error) => {
             // Gagal login
-            errorMessage.textContent = 'Login gagal'
+            errorMessage.textContent = 'Login gagal: ' + error.message;
         });
 });
 
