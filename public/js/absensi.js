@@ -177,7 +177,7 @@ downloadAbsensiBtn.addEventListener('click', () => {
 
     // Tanda Tangan Guru Mapel
     doc.setFontSize(10);
-    doc.text('Sukabumi, ' + currentDateSpan.textContent, doc.internal.pageSize.getWidth() - 80, finalY + 20);
+    doc.text('Cileles, ' + currentDateSpan.textContent, doc.internal.pageSize.getWidth() - 80, finalY + 20);
     doc.text('Guru Mata Pelajaran Bahasa Inggris,', doc.internal.pageSize.getWidth() - 80, finalY + 30);
     doc.text('Danu Septiana, S.Pd.', doc.internal.pageSize.getWidth() - 80, finalY + 60);
 
